@@ -1,0 +1,55 @@
+@startuml
+
+class Point {
+    - double x
+    - double y
+
+    + Point(double x, double y)
+    + double distanceTo(Point otherPoint)
+}
+
+interface Figure {
+    + double perimeter()
+    + double area()
+    + boolean belongs(Point point)
+}
+
+class Rectangle implements Figure {
+    - Point corner1
+    - Point corner2
+
+    + Rectangle(Point corner1, Point corner2)
+    + double perimeter()
+    + double area()
+    + double base()
+    + double height()
+    + boolean belongs(Point point)
+}
+
+class Triangle implements Figure {
+    - Point corner1
+    - Point corner2
+    - Point corner3
+
+    + Triangle(Point corner1, Point corner2, Point corner3)
+    + double perimeter()
+    + double area()
+    + boolean belongs(Point point)
+}
+
+class Ellipse implements Figure {
+    - Point center
+    - double axisA
+    - double axisB
+
+    + Elipse(Point center, double axisA, double axisB)
+    + double perimeter()
+    + double area()
+    + boolean belongs(Point point)
+}
+
+class Circle extends Ellipse {
+    + Circle(Point center, double radius)
+}
+
+@enduml
