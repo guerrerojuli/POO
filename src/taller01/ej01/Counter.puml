@@ -2,11 +2,11 @@
 'https://plantuml.com/sequence-diagram
 
 class Counter {
-- int count;
-+ Counter();
-+ void increment();
-+ void decrement();
-+ int getCount();
+- int count
++ Counter()
++ void increment()
++ void decrement()
++ int getCount()
 }
 
 @enduml
