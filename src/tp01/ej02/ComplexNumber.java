@@ -1,7 +1,5 @@
 package tp01.ej02;
 
-import java.util.concurrent.CompletableFuture;
-
 public class ComplexNumber {
     private double real;
     private double imaginary;
@@ -16,9 +14,9 @@ public class ComplexNumber {
         this.imaginary = 0;
     }
 
-    public static ComplexNumber sum(ComplexNumber c1, ComplexNumber c2) {
-        double real = c1.real + c2.real;
-        double imaginary = c1.imaginary + c2.imaginary;
+    public ComplexNumber plus(ComplexNumber c) {
+        double real = this.real + c.real;
+        double imaginary = this.imaginary + c.imaginary;
         return new ComplexNumber(real, imaginary);
     }
 

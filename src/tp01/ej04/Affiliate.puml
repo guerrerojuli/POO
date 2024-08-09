@@ -1,0 +1,14 @@
+@startuml
+
+class Affiliate {
+    - String firstName
+    - String lastName
+    - String bornDate
+    - int affiliateNum
+    - {static} int currentAffiliateNum= 1000
+
+    + Affiliate(String nombre, String apellido, String fechaNacimiento);
+    - {static} int getAndIncrement()
+}
+
+@enduml

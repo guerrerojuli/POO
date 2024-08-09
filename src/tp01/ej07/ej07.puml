@@ -1,0 +1,18 @@
+@startuml
+
+class Point {
+    -double x
+    -double y
+
+    + Point(double x, double y)
+    + double distanceTo(Point otherPoint)
+}
+
+class Point3D extends Point {
+    -double z
+
+    + Point(double x, double y, double z)
+    + double distanceTo(Point otherPoint)
+}
+
+@enduml

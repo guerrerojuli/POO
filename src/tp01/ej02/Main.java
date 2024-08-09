@@ -10,7 +10,7 @@ public class Main {
         System.out.println("Real: " + c2.getReal());
         System.out.println("Imaginary: " + c2.getImaginary());
 
-        ComplexNumber c3 = ComplexNumber.sum(c1, c2);
+        ComplexNumber c3 = c1.plus(c2);
         System.out.println("Real: " + c3.getReal());
         System.out.println("Imaginary: " + c3.getImaginary());
     }

@@ -1,0 +1,12 @@
+@startuml
+'https://plantuml.com/class-diagram
+
+class Point {
+    - double x
+    - double y
+
+    + Point(double x, double y)
+    + double distanceToPoint(Point otherPoint)
+}
+
+@enduml

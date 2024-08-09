@@ -2,12 +2,11 @@
 'https://plantuml.com/sequence-diagram
 
 class Gear {
-    - final int chainring;
-    - final double cog;
+    - int chainring
+    - double cog
 
-    + Gear(int chainring, double cog);
-
-   + double getRatio();
+    + Gear(int chainring, double cog)
+    + double ratio()
 }
 
 @enduml

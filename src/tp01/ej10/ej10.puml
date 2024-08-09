@@ -1,0 +1,27 @@
+@startuml
+
+interface Cuenta {
+    + int id
+    + int balance
+
+    + void depositar()
+    + void extraer()
+}
+
+class CajaDeAhorro implements Cuenta {
+    + int id
+    + int balance
+
+    + void depositar()
+    + void extraer()
+}
+
+class CuentaCorriente implements Cuenta {
+    + int id
+    + int balance
+
+    + void depositar()
+    + void extraer()
+}
+
+@enduml

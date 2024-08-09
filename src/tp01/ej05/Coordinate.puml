@@ -1,0 +1,14 @@
+@startuml
+
+class Coordinate {
+    - double latitude
+    - double longitude
+
+    + Coordinate(double latitude, double longitude)
+    + double getLatitude()
+    + double getLongitude()
+    + boolean isSouthernHemisphere()
+    + boolean isWesternHemisphere()
+}
+
+@enduml
