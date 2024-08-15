@@ -1,6 +1,6 @@
 @startuml
 
-interface Account {
+abstract class Account {
     + int id
     + double balance
 

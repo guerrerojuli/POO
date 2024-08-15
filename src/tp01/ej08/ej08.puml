@@ -8,7 +8,7 @@ class Point {
     + double distanceTo(Point otherPoint)
 }
 
-interface Figure {
+abstract class Figure {
     + double perimeter()
     + double area()
 }
