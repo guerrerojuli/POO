@@ -1,0 +1,7 @@
+1)  numero1 y numero2 no fueron inicializadas.
+2)  no se puede asignar un int a un String.
+3)  a no fue inicializada.
+4)  float se indica con una F al final.
+5)  if recibe un argumento de tipo boolean.
+6)  sumar no puede recibir parametros de tipo long.
+7)  no se puede usar break fuera de un bucle.
