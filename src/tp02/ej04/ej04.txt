@@ -1,0 +1,4 @@
+Compila ya que se trata de un error no verificado, es decir que no se encuentra en la firma de la function.
+valueOf es un metodo de clase que te retorna el valor numerico de un string.
+toString es un meto de instancia que te retorna un String que representa al objeto.
+sys_out llama a toString si el elemento no es un string.
