@@ -1,0 +1,4 @@
+1)  0.90
+2)  Ha,  suma de ascii
+3)  ABC easy as type@hashcode
+4)  se ignora el _
