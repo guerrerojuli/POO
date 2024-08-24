@@ -3,14 +3,11 @@ package tp02.ej03;
 public class Deletrear {
     public static void main(String[] args) {
         for (String arg : args) {
-            StringBuilder print = new StringBuilder();
-            for (char c : arg.toCharArray()) {
-                if (!print.isEmpty()) {
-                    print.append("-");
-                }
-                print.append(c);
+            int i;
+            for (i = 0; i < arg.length() - 1; i++) {
+                System.out.print(arg.charAt(i) + "-");
             }
-            System.out.println(print.toString());
+            System.out.println(arg.charAt(i));
         }
     }
 }
