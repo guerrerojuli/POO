@@ -1,0 +1,8 @@
+ClassA: 3 Integer
+Error de compilacion. Una instancia de clase hija no puede ser instanciada con constructor padre pero si al reves.
+ClassB: 3 Integer
+ClassA: 3 Integer
+Error de ejecicion. No se puede castear de una clase padre a una clase hija pero si al reves.
+ClassA: 3 Integer
+
+En clase B existen 2 funciones distintas ya que tienen diferentes parametros (sobrecarga parametrica)

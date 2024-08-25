@@ -1,0 +1,4 @@
+a) No se puede prescindir del contructor ya que debe llamar a super(id)1
+b) Si, se podria. No se puede almacenar al reves.
+c) No.
+d) myBankAccount es de tipo SavingsAccount ya que fue inicializada con su contructor.

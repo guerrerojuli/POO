@@ -1,0 +1,7 @@
+false
+false
+no se puede hacer .equals con un double (tipo primitivo)
+true
+no se puede crear sin pasar x e y
+error null.getX()
+{2.0, 1.0}

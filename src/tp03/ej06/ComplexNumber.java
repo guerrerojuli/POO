@@ -1,4 +1,4 @@
-package tp01.ej02;
+package tp03.ej06;
 
 public class ComplexNumber {
     private double real;
@@ -20,11 +20,25 @@ public class ComplexNumber {
         return new ComplexNumber(real, imaginary);
     }
 
+    public ComplexNumber plus(double n) {
+        return new ComplexNumber(this.real + n, this.imaginary);
+    }
+
     public double getReal() {
         return real;
     }
 
     public double getImaginary() {
         return imaginary;
+    }
+
+    @Override
+    public String toString() {
+        return real + " + " + imaginary;
+    }
+
+    @Override
+    public boolean equals(Object obj) {
+        return obj instanceof ComplexNumber c && this.real == c.real && this.imaginary == c.imaginary;
     }
 }

@@ -1,0 +1,14 @@
+Clase A: Imprime Integer 3 que es de tipo java.lang.Integer
+Clase A: Imprime Number 3.14 que es de tipo java.lang.Double
+Clase A: Imprime Number 3 que es de tipo java.lang.Integer
+Clase A: Imprime Object 3 que es de tipo java.lang.Integer
+
+Clase B: Imprime Number 3.14 que es de tipo java.lang.Double
+Clase A: Imprime Object Hola que es de tipo java.lang.String
+Clase B: Imprime Number 3 que es de tipo java.lang.Integer
+Clase A: Imprime Object 3 que es de tipo java.lang.Integer
+
+Clase B: Imprime Number 3.14 que es de tipo java.lang.Double
+Clase A: Imprime Object Hola que es de tipo java.lang.String
+Clase B: Imprime Number 3 que es de tipo java.lang.Integer
+Clase A: Imprime Object 3 que es de tipo java.lang.Integer

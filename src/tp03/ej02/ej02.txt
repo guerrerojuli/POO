@@ -1,0 +1,2 @@
+El operador instanceof dice si un objeto es una instancia de alguna clase, considerando que todos los objetos son instancias de sus clases padre
+El metodo getClass() da la clase a la que pertenece un objeto, es decir que tipo de objeto es.
