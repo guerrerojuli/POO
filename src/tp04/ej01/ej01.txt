@@ -1,0 +1,4 @@
+1) compila
+2) no compila, finalGreeting tiene que ser abstract
+3) compila
+4) no compila, falta implementar int sum(int num1, int num2);
