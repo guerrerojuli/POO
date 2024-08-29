@@ -1,0 +1,54 @@
+@startuml
+interface HTMLText {
+    + String source()
+}
+
+class PlainText implements HTMLText{
+    - String text;
+
+    + PlainText(String text)
+
+    + void setText(String text)
+
+    + String source()
+
+    + String toString()
+}
+
+class FormatText implements HTMLText {
+    - HTMLText text;
+    - String format;
+    - HTMLAttribute[] attributes
+
+    + FormatText(HTMLText text)
+
+    + String source()
+
+    + String toString()
+}
+
+class HTMLAttribute {
+    - String key
+    - String value
+
+    + HTMLAttribute(String key, String value)
+
+    + String toString()
+}
+
+class BoldText extends FormatText {
+    - {static} String FORMAT
+    + BoldText(HTMLText text)
+}
+
+class ItalicText extends FormatText {
+    - {static} String FORMAT
+    + ItalicText(HTMLText text)
+}
+
+class LinkText extends FormatText {
+    - {static} String FORMAT
+    + LinkText(HTMLText text, String href)
+ }
+
+@enduml
