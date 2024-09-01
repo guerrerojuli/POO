@@ -1,4 +1,4 @@
-package tp03.ej08;
+package tp04.ej10;
 
 import java.util.Arrays;
 
@@ -9,7 +9,7 @@ public class CellPhoneBill {
 
   private static final int DEFAULT_SIZE = 10;
 
-  public CellPhoneBill(String number) {
+  CellPhoneBill(String number) {
     this.number = number;
     this.calls = new Call[DEFAULT_SIZE];
   }
