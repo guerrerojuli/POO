@@ -1,0 +1,29 @@
+1)
+Excepcion 2 capturada
+Finalizando
+
+2)
+Excepcion 3 capturada
+Finalizando 3
+Finalizando 2
+Excepcion 4 capturada
+
+3)
+error de compilacion. excepcion ya esta siendo capturada
+
+4)
+error de compilacion. excepcion tiene que ser manejada
+
+5)
+Mensaje de RuntimeException
+
+6)
+Dentro del bloque try
+
+7)
+error de compilacion. la excepcion no puede ser lanzada por el codigo del try
+
+8)
+Finalizando 3
+Excepcion 2 capturada
+Finalizando 2
