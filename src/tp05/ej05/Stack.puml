@@ -1,0 +1,21 @@
+@startuml
+interface Stack<E> {
+    E peek()
+    E pop()
+    void push(E element)
+    boolean isEmpty()
+}
+
+class ArrayStack<E> implements Stack<E> {
+    - E[] elements
+    - {static} final int INITIAL_DIM
+    - int elemCount
+
+    + ArrayStack()
+    + E peek()
+    + void push(E e)
+    + E pop()
+    + boolean isEmpty()
+    + String toString()
+}
+@enduml
