@@ -1,11 +1,14 @@
+# Abstract Figure class
 class Figure
   def initialize
-    raise ""
+    raise NotImplementedError, "Subclasses must implement initialize"
   end
 
-  def perimeter 
+  def perimeter
+    raise NotImplementedError, "Subclasses must implement perimeter"
   end
 
-
-  private initialize
+  def area
+    raise NotImplementedError, "Subclasses must implement area"
+  end
 end
