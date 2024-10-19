@@ -1,0 +1,5 @@
+  | m_1 | m_2 | m_3 | m_4 | m_5 | m_6 | m_7
+A |   3 |  10 |   5 | loop|   - |   - |   -
+B |   8 |error|   5 |  20 |   5 |   - |error
+C |   8 |   3 |   5 |  20 |   5 |   3 |error
+D |error|error|   2 |  20 |  20 |   - |error 
