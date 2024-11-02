@@ -22,5 +22,4 @@ public class IterableBagImpl<T extends Comparable<? super T>> extends BagImpl<T>
     public Iterable<T> elementsDistinct() {
         return bag.keySet();
     }
-
 }
